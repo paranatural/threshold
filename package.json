@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "engines": {
+    "node": "^20.10.0",
+    "yarn": "1.22.22"
+  },
+  "packageManager": "yarn@1.22.22",
+  "devDependencies": {
+    "nx": "19.2.0"
+  }
+}
