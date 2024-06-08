@@ -1,5 +1,14 @@
 {
   "private": true,
+  "scripts": {
+    "develop": "exit 0",
+    "format": "nx run-many -t format",
+    "lint": "nx run-many -t lint",
+    "typecheck": "nx run-many -t typecheck",
+    "test": "nx run-many -t test",
+    "build": "nx run-many -t build",
+    "clean": "exit 0"
+  },
   "workspaces": [
     "packages/*",
     "examples/*"
