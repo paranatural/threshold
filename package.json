@@ -14,7 +14,7 @@
     "examples/*"
   ],
   "engines": {
-    "node": "^20.10.0",
+    "node": "^22.2.0",
     "yarn": "1.22.22"
   },
   "packageManager": "yarn@1.22.22",

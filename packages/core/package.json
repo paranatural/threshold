@@ -7,21 +7,13 @@
     "format": "prettier --ignore-unknown --write src",
     "lint": "exit 0",
     "typecheck": "tsc --noEmit",
-    "test": "exit 0",
+    "test": "vitest",
     "build": "rollup -c rollup.config.js",
     "clean": "rimraf dist"
   },
   "type": "module",
-  "module": "dist/index.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "jsnext:main": "dist/index.js",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "default": "./dist/index.js"
-    }
-  },
   "dependencies": {
     "effector": "^23.2.2",
     "patronum": "^2.2.0"
@@ -32,9 +24,10 @@
     "prettier": "^3.3.1",
     "read-pkg-up": "^11.0.0",
     "rimraf": "^5.0.7",
-    "rollup": "^4.17.2",
-    "rollup-plugin-dts": "^6.1.0",
+    "rollup": "^4.18.0",
+    "rollup-plugin-dts": "^6.1.1",
     "tslib": "^2.6.3",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
   }
 }

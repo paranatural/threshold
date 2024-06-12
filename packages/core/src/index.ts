@@ -1,6 +1,7 @@
-export { Compiler } from './compiler.js'
-export { Parser } from './parser.js'
-export { RuleMeta } from './rules.js'
-export { TagMeta } from './tags.js'
-export { VfsUnit, Directory, File } from './units.js'
-export { Warnings } from './warnings.js'
+export type { Action } from './actions.js'
+export type { Compiler } from './compiler.js'
+export type { Parser } from './parser.js'
+export type { VfsUnit, Directory, File } from './units.js'
+
+export { createThresholdCore } from './factory.js'
+export type { ThresholdCore, ThresholdCoreConfig } from './factory.js'

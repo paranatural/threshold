@@ -1,5 +1,5 @@
 import { RuleMeta } from './rules.js'
 
-export interface Warnings {
+export interface Warning {
   rule: RuleMeta['name']
 }

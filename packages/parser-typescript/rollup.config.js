@@ -13,7 +13,7 @@ export default defineConfig([
     plugins: [typescriptPlugin()],
     output: [
       {
-        file: packageJson.module,
+        file: packageJson.main,
         format: 'es',
       },
     ],
