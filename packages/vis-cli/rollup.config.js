@@ -21,7 +21,7 @@ export default defineConfig([
     plugins: [typescriptPlugin()],
     output: [
       {
-        file: packageJson.bin['threshold-lint'],
+        file: packageJson.bin['threshold-vis'],
         format: 'es',
         banner: '#!/usr/bin/env node\n'
       },

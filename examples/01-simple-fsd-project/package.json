@@ -7,7 +7,7 @@
     "develop": "vite",
     "format": "exit 0",
     "lint": "exit 0",
-    "lint:fs": "threshold-lint lint --watch=true src",
+    "lint:fs": "threshold lint src",
     "typecheck": "tsc --noEmit",
     "test": "exit 0",
     "build": "tsc && vite build",
@@ -20,7 +20,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@paranatural/threshold-lint-cli": "^0.0.0",
+    "@paranatural/threshold-cli": "^0.0.0",
     "@types/node": "^20.14.2",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",

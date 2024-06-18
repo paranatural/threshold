@@ -1,5 +1,5 @@
 {
-  "name": "@paranatural/threshold-lint-cli",
+  "name": "@paranatural/threshold-vis-cli",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -25,12 +25,12 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "bin": {
-    "threshold-lint": "dist/bin.js"
+    "threshold-vis": "dist/bin.js"
   },
   "peerDependencies": {},
   "dependencies": {
     "@paranatural/threshold-core": "^0.0.0",
-    "@paranatural/threshold-lint": "^0.0.0",
+    "@paranatural/threshold-vis": "^0.0.0",
     "commander": "^12.1.0"
   },
   "devDependencies": {
